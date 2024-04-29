@@ -1,4 +1,4 @@
-# Gustos
+´´# Gustos
 
 Se nos pide armar un programa que ayude a entender qué cosas le gustan a distintas personas.
 
@@ -8,7 +8,7 @@ Se nos pide armar un programa que ayude a entender qué cosas le gustan a distin
 Tener en cuenta a estas personas:
 - _Rosa_: le gustan las cosas que pesan 2 kilos (o sea 2000 gramos) o menos.
 - _Estefanía_: le gustan las cosas de colores fuertes.
-- _Luisa_: le gustan las cosas que sean de un material que brilla.
+- _Luisa_: le gustan las cosas que sean de un material que brilla.}
 - _Juan_: le gustan las cosas que, o bien son de un color que no es fuerte, o bien pesan entre 1200 y 1800 gramos.
 
 Como **colores** contemplar (al menos) rojo, verde, celeste y pardo. 
@@ -29,28 +29,28 @@ Finalmente, considerar (al menos) estos objetos:
 - A _Luisa_ en cambio le gustan objetos del tipo: una _placa_ de cobre, o un _muñeco_ de vidrio; pero no le gustaría la _remera_ ni la _pelota_.
 - _Juan_ tiene gustos combinados, le puede gustar: una _pelota_, un _muñeco_ celeste, o una _placa_ de cobre que pese 1500 gramos. No le gusta la _biblioteca_ ni la _remera_.
 
-## Bolichito
+ ## Bolichito
 
-Agregar al modelo un bolichito, que vende dos objetos: uno está en la vidriera, otro está en el mostrador.
-Estos objetos van cambiando con el tiempo.
+ Agregar al modelo un bolichito, que vende dos objetos: uno está en la vidriera, otro está en el mostrador.
+ Estos objetos van cambiando con el tiempo.
 
-Se esperar que el objeto que representa al bolichito responda a estos mensajes:
-- `esBrillante()`: indica si los dos objetos que tiene (el de mostrador y el de vidriera) son de un material que brilla.
+ Se esperar que el objeto que representa al bolichito responda a estos mensajes:
+ - `esBrillante()`: indica si los dos objetos que tiene (el de mostrador y el de vidriera) son de un material que brilla.
 
-- `esMonocromatico()`: indica si los dos objetos que tiene son del mismo color. <br> 
+ - `esMonocromatico()`: indica si los dos objetos que tiene son del mismo color. <br> 
   Esto se daría si tiene p.ej. la remera en mostrador y la placa en vidriera, 
   y la placa se configura como de color rojo y peso 2400 gramos.
   
-- `estaDesequilibrado()`: indica si el objeto en el mostrador pesa más que el de la vidriera. <br> 
+ - `estaDesequilibrado()`: indica si el objeto en el mostrador pesa más que el de la vidriera. <br> 
   P.ej. si el bolichito tiene la biblioteca en el mostrador y la remera en la vidriera, está desequilibrado.
   
-- `tieneAlgoDeColor(color)`: indica si alguno de los dos objetos que tiene el boliche es del color indicado. <br>
+ - `tieneAlgoDeColor(color)`: indica si alguno de los dos objetos que tiene el boliche es del color indicado. <br>
   P.ej. si el bolichito tiene la biblioteca en la vidriera y la remera en el mostrador, 
   entonces tiene algo de color rojo y tiene algo de color verde, pero no tiene nada de color pardo.
   
-- `puedeMejorar()`: indica si el bolichito puede mejorar en uno de los siguientes aspectos: o bien está desequilibrado (falta de equilibrio), o bien es monocromático (falta de alegría).
+ - `puedeMejorar()`: indica si el bolichito puede mejorar en uno de los siguientes aspectos: o bien está desequilibrado (falta de equilibrio), o bien es monocromático (falta de alegría).
   
-- `puedeOfrecerleAlgoA(persona)`: indica si alguno de los dos objetos que tiene en venta el boliche le gustan a la persona. <br>
+ - `puedeOfrecerleAlgoA(persona)`: indica si alguno de los dos objetos que tiene en venta el boliche le gustan a la persona. <br>
   P.ej. si el bolichito tiene la remera en la vidriera y la pelota en el mostrador,
   entonces puede ofrecerle algo a Estefanía (la remera) y a Juan (la pelota) 
   pero no a Luisa (porque no le gustan ni la remera ni la pelota).
@@ -66,6 +66,6 @@ Agregar al modelo estos objetos:
   El naranja es un color fuerte.
 - una _cajita_ roja de cobre, que tiene un objeto adentro. 
   Este objeto puede ser cualquiera de los definidos previamente, y puede cambiar.
-  El peso de la cajita es de 400 gramos más el peso de lo que tiene adentro.
+  El peso de la cajita es de 400 gramos más el peso de lo que tiene adentro.''
     
   
